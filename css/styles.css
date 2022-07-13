@@ -1,0 +1,235 @@
+:root {
+    --main-gray: #757575;
+    --main-black: #212121;
+    --main-blue: #2196F3;
+    --main-white: #FFFFFF;
+    --main-light-gray: #F5F4FA;
+    --gray-background: #2F303A;
+
+    
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--main-black);
+    background-color: #FFFFFF;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+/* Header */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--main-blue);
+    text-decoration: none;
+
+}
+
+.logo-word {
+    color: #000000;
+} 
+
+.menu-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+
+}
+.menu-link-name {
+    color: var(--main-black);
+}
+.menu-link-name:hover, .menu-link-name:focus {
+    color: var(--main-blue);
+}
+
+.address-info {
+    color: var(--main-gray);
+}
+
+.address-info:hover, .address-info:focus {
+    color: var(--main-blue);
+}
+/* Активна кнопка поточної вкладки (пріорітетність за рахунок тегу, що розміщений нижче в потоці!)*/
+.active {
+    color: var(--main-blue); 
+}
+
+/* Solutions */ 
+
+.solutions {
+    color: var(--main-white);
+    background-color: var(--gray-background);
+}
+
+.main-text {   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.modal-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: inherit;
+    background-color: var(--main-blue);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.modal-button:hover, .modal-button:focus {
+    background-color: #188CE8;
+
+}
+
+/* Advantages */
+
+.advantage-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantage-descr {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-gray)
+
+}
+
+/* Our work */
+
+
+/* Team */
+
+.team {
+    background-color: var(--main-light-gray);
+}
+
+.team-member {
+    background-color: var(--main-white);
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.member-position {
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-gray)
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--gray-background);
+}
+
+.footer-logo-word {
+    color: var(--main-white);
+}
+
+.footer-address-data {  
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-white)
+}
+
+.footer-address-info {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-address-info:hover, .footer-address-info:focus {
+    color: var(--main-blue);
+}
+
+/* Portfolio page */
+
+/* Filters */
+
+.filter-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--main-light-gray);
+    cursor: pointer;
+}
+
+.filter-button:hover, .filter-button:focus {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+}
+
+/* Our clients */
+
+.client-list-item {
+    border: 1px solid #EEEEEE;
+}
+
+.client-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.client-type {
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-gray);
+}
