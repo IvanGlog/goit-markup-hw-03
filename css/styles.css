@@ -49,6 +49,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 
+    margin-bottom: 50px;
 }
 
 .container {
@@ -167,6 +168,8 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-text {   
@@ -181,6 +184,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    
 }
 
 .modal-button {
@@ -193,6 +197,7 @@ img {
     cursor: pointer;
     text-align: center;
     letter-spacing: 0.06em;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     padding: 10px 32px;
@@ -209,6 +214,7 @@ img {
 
 .advantage-list {
     display: flex;
+    justify-content: center;
 }
 
 .advantage-name {
@@ -217,6 +223,16 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.advantage-list-item {
+    width: 270px;
+}
+
+.advantage-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .advantage-descr {
@@ -229,9 +245,17 @@ img {
 
 /* Our work */
 
+.work {
+    padding-top: 0;
+}
+
 .work-list {
     display: flex;
     margin-top: 50px;
+}
+
+.work-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 
@@ -243,6 +267,11 @@ img {
 
 .team-member {
     background-color: var(--main-white);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.team-member:not(:last-child) {
+    margin-right: 30px;
 }
 
 .team-member-list {
@@ -252,25 +281,35 @@ img {
     margin-top: 50px;
 }
 
+.member-descr {
+    padding-top: 30px;
+}
+
 .team-member-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-bottom: 10px;
 }
 
 .member-position {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-gray)
+    color: var(--main-gray);
+
+    padding-bottom: 30px;
 }
 
 /* Footer */
 
 .footer {
     background-color: var(--gray-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo-word {
@@ -281,7 +320,11 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-white)
+    color: var(--main-white);
+}
+
+.footer-address-item {
+    margin-top: 9px;
 }
 
 .footer-address-info {
@@ -293,6 +336,8 @@ img {
 
 address {
     font-style: normal;
+    margin-left: 215px;
+    margin-top: 20px;
 }
 
 .footer-address-info:hover, .footer-address-info:focus {
@@ -304,7 +349,7 @@ address {
 /* Filters */
 
 .filters {
-    padding-top: 94px;
+    padding-bottom: 0px;
 }
 
 .filter-list {
@@ -320,11 +365,13 @@ address {
     letter-spacing: 0.03em;
     background-color: var(--main-light-gray);
     cursor: pointer; 
-    border: none
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
 
 }
 .filter-list {
-    
+    justify-content: center;
 }
 
 .filter-list-item:not(:last-child) {
@@ -338,28 +385,30 @@ address {
 /* Our clients */
 
 .our-clients {
-    padding-top: 34px;
-    padding-bottom: 94px;
+    padding-top: 50px;
 }
 
 .client-list {
     display: flex;
     flex-wrap: wrap;
-
-    margin-top: 34px;
-
-
+    gap: 30px;
 }
 
-.client-list-item:not(:nth-child(3n)) {
+.client-list-item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+/* .client-list-item:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 .client-list-item:not(:nth-last-child(-n+3)) {
     margin-bottom: 30px;
-}
+} */
 
-.client-list-item {
-    border: 1px solid #EEEEEE;
+.client-descr {
+    padding: 24px 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .client-name {
@@ -367,6 +416,8 @@ address {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-bottom: 4px;
 }
 
 .client-type {
