@@ -100,10 +100,10 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-blue);
     text-decoration: none;
-
-    margin-left: 215px;
+    
+}
+.header-container .logo {
     margin-right: 93px;
-
 }
 
 .logo-word {
@@ -165,7 +165,6 @@ img {
 .solutions {
     color: var(--main-white);
     background-color: var(--gray-background);
-    display: flex;
     align-items: center;
     text-align: center;
     padding-top: 200px;
@@ -283,6 +282,7 @@ img {
 
 .member-descr {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-member-name {
@@ -300,8 +300,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-gray);
-
-    padding-bottom: 30px;
 }
 
 /* Footer */
@@ -321,10 +319,12 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-white);
+
+    margin-bottom: 9px;
 }
 
-.footer-address-item {
-    margin-top: 9px;
+.footer-address-item:first-child {
+    margin-bottom: 9px;
 }
 
 .footer-address-info {
@@ -336,7 +336,6 @@ img {
 
 address {
     font-style: normal;
-    margin-left: 215px;
     margin-top: 20px;
 }
 
@@ -344,13 +343,9 @@ address {
     color: var(--main-blue);
 }
 
-/* Portfolio page */
+/* ---------Portfolio page------------- */
 
 /* Filters */
-
-.filters {
-    padding-bottom: 0px;
-}
 
 .filter-list {
     display: flex;
@@ -385,7 +380,7 @@ address {
 /* Our clients */
 
 .our-clients {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .client-list {
