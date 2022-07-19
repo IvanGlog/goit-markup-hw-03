@@ -48,8 +48,6 @@ img {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
-    margin-bottom: 50px;
 }
 
 .container {
@@ -379,14 +377,11 @@ address {
 
 /* Our clients */
 
-.our-clients {
-    margin-top: 50px;
-}
-
 .client-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 50px;
 }
 
 .client-list-item {
